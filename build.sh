@@ -139,7 +139,7 @@ sed -i -e "/^extractsize=/s/=.*/=\"$EXTRACTSIZE\"/" $project_tmp/INFO
 # create spk-name
 new_file_name=$project_name"-aio-"$gitea_target_package_version"-"$spk_version".spk"
 
-cd $project_tmp/ && tar --format=gnu -cf $project_build/$new_file_name * --exclude='package' && cd ../
+cd $project_tmp/ && tar --format=gnu --exclude='package' -cf $project_build/$new_file_name * && cd ../
 if [ $IS_DEBUG == 0 ]; then
   rm -rf "$project_tmp"
 fi
