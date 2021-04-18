@@ -2,14 +2,14 @@ Gitea is a community managed fork of Gogs, lightweight code hosting solution wri
 
 Project Page: [https://gitea.io](https://gitea.io)
 Documentation: [https://docs.gitea.io/en-us/](https://docs.gitea.io/en-us/)
-**Download Gitea 1.11.1 SPK**: [here](https://github.com/jboxberger/synology-gitea-jboxberger/releases)
+**Download Gitea 1.11.1 SPK**: [here](https://github.com/dequi/synology-gitea-jboxberger/releases)
 
 ## Packages:
 - https://hub.docker.com/r/gitea/gitea/
 
 ## Supported Architectures
 **x86 avoton bromolow cedarview braswell kvmx64 broadwell apollolake**
-Since i can't test all architectures i had to make a choice which i can cover or which i expect to work. If your architecture is not in this list, please feel free to contact me and we can give it a try.
+Since I can't test all architectures I had to make a choice which I can cover or which I expect to work. If your architecture is not in this list, please feel free to contact me and we can give it a try.
 
 You can check the architecture of your device [here](https://github.com/SynoCommunity/spksrc/wiki/Architecture-per-Synology-model)
 or [here](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have).
@@ -17,8 +17,8 @@ or [here](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/General/What
 ## Version Enumeration
 ```
 Gitea <Gitea-Version>-<Package-Version> (Gitea 1.4)
-Gitea-Version:  as expected the GitLab version
-Package-Version: version of the application around GitLab, install backup an other scripts
+Gitea-Version: as expected the Gitea version
+Package-Version: version of the application around Gitea, install backup an other scripts
 ```
 
 ## Build instructions
